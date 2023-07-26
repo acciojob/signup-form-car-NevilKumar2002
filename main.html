@@ -22,11 +22,11 @@
 		
 	<br>
 			<label for="Gender" required>Gender*</label>
-			<input type="radio" name="gender" value="Male" required="required"> Male</label>
-			<label> <input type="radio" name="gender" value="female" required="required">Female</label>
+			<input type="radio" name="gender" value="Male" id="gender_m" required="required"> Male</label>
+			<label> <input type="radio" name="gender" id="gender_f" value="female" required="required">Female</label>
 		<br>
 		<label for="carbrands">Car Brands*</label>
-		<select for="carbrands" id="carbrands" placeholder="Please choose an option">
+		<select for="cars" id="cars" placeholder="Please choose an option">
 			<option value="BMW">BMW</option>
 			<option value="Audi">Audi</option>
 			<option value="Mercerdez">Mercedez</option>
@@ -34,23 +34,23 @@
 		<br>
 	
 		<label for="age">Age*</label>
-		<input type="email" placeholder="Age" id="email" required="required"/>
+		<input type="email" placeholder="Age" id="age" required="required"/>
 		<br>
 		<label for="dob">DOB*</label>
 		<input type="date" placeholder="dd-mm-yyyy" id="dob" required="required" />
 		<br>
 		<label for="phonenumber">Phone Number</label>
-		<input type="phonenumber" placeholder="xxx-xxx-xxxx" id="phonenumber" required="required"/>
+		<input type="phonenumber" placeholder="xxx-xxx-xxxx" id="tel" required="required"/>
 		<br>
 		<label for="password">Password*</label>
 		<input type="password" placeholder="Password" id="password" required="required"/>
 		<br>
 		<label for="checkbox">Checkbox*</label>
-		<input type="checkbox"/>
+		<input type="checkbox" id="tos"/>
 		<br>
 <!-- 		<label for="button">Submit</label>
 		<input type="button" placeholder="submit" id="button"/> -->
-<input type="button" value="submit" />
+<button type="submit" value="submit" >submit</button>
 		<br>
 	</form>
 	
